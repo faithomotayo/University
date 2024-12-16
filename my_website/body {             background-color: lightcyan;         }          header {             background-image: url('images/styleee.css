@@ -1,0 +1,13 @@
+body {
+    background-color: lightcyan;
+}
+
+header {
+    background-image: url('images/threekids.jpg');
+    background-size: cover;
+    background-position: center;
+    color: darkblue;
+    text-align: center;
+    padding: 100px 0;
+
+}

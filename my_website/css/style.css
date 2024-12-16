@@ -1,0 +1,321 @@
+
+
+body {
+    background-color: beige);
+    
+}
+
+/* This put the plain text in a bo*/
+p {
+    padding: 20px;
+    margin: 25px;
+    
+    /* other styling */
+    background-color: #33475b;
+    border-radius: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+    }
+
+
+    img {
+        border: 5px solid rgb(17, 17, 80)
+        
+    }
+
+
+header {
+    background-image: url('../images/class.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(41, 38, 38);
+    text-align: center;
+    padding: 150px 0;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+
+.navbar {
+    background-color: lightcyan;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+
+h1 {
+    padding: 45px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px #888;
+
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+        }
+
+
+button{
+    font-size: 30px;
+    width: 16vw;
+    height: 8vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-color: rgb(123, 123, 123);
+    text-align: center;
+    }
+
+    button:hover{
+    background-color: 
+    rgb(120, 119, 119);
+    transition: 2s;
+    }
+
+
+    /* This is my dropdown button */
+    .dropdown{
+        display: inline-block;
+    }
+    .dropdown button{
+        background-color: rgb(132, 129, 129);
+        color: white;
+        padding:10px 15px;
+        border:none;
+        cursor: pointer;
+
+    }
+
+    .dropdown a{
+        display:block;
+        color: black;
+        text-decoration:none;
+        padding: 10px 15px;
+
+    }
+
+    .dropdown .content{
+        display: none;
+        position: absolute;
+        background-color: rgb(198, 194, 194);
+        min-width: 100px; 
+        box-shadow: 2px 2px 5px black;
+        text-align: center;
+
+    }
+    .dropdown:hover .content{
+        display: block;
+    }
+
+    .dropdown:hover button{
+        background-color: rgb(255, 255, 255)
+    }
+
+    .dropdown a:hover{
+        background-color:rgb(114, 110, 110)
+
+    }
+
+    #contact{
+        color: black;
+        font-size: xx-large;
+    
+        margin-top: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+        
+        body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+
+        
+        }
+        
+        .wrapper {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#33475b;
+        
+    }
+    
+    .form-wrapper {
+        width: 100%;
+        max-width: 500px;
+        padding: 50px;
+    
+        background-color: white;
+        box-shadow: 0 0 10px rgba(30, 250, 180, 0.4);
+    }
+    
+    .title {
+        margin-bottom: 50px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2em;
+        color: black;
+        text-align: center;
+    }
+    
+    .form-group {
+        margin: 20px 0;
+        }
+        
+    input {
+        font-size: 30px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        margin: 5px 0;
+        box-sizing: border-box;
+        }
+        
+    label {
+        font-size: 15px;
+        font-weight: bold;
+        }
+        
+    input:not([type="submit"]) {
+        width: 100%;
+        border: 2px solid rgba(0, 0, 0, 0.7);
+        }
+    
+    input[type="submit"] {
+        background-color: rgb(8, 131, 92);
+        color: white;
+        font-size: 20px;
+        }
+    input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: rgb(35, 235, 171);
+        }
+    
+    input[type="submit"]:active {
+        background-color: rgb(28, 80, 63);
+        }
+    
+    .error #emailError,
+    .error #passwordError {
+        color: red;
+        }
+    .error input {
+        border: 2px solid red;
+        }
+    
+    .msg {
+        display: none;
+        }
+
+
+    /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+
+
+
+    #mkContainer{
+        padding: 20px;
+        border-radius: 3px;
+        border-width: 2px;
+        border-color: #33475b;
+        border-style: double;
+        width: 1000px;
+        display: inline-block;
+        
+    }
+
