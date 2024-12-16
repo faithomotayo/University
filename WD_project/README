@@ -1,0 +1,1 @@
+This is my 2nd year library project I made creating php, mySQL, html, css. It is able to create a user and log them in and out. The user is able to search for a particular book on the website by title, author name or category. They are also able to reserve their book and it gets displayed in their reserved books page.
